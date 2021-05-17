@@ -16,7 +16,7 @@ def run_game():
 	ship = Ship(screen)
 
 	#开始游戏主循环
-	while True:
+	while False:
 
 		#监视键盘和鼠标事件
 		for event in pygame.event.get():
